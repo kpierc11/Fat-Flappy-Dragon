@@ -1,55 +1,41 @@
-# Prerequisites
-*.d
+# CMake build directories
+build/
+cmake-build-*/
+out/build/
 
-# Object files
+# CMake temporary files and caches
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_CPack_Packages/
+
+# Other common build artifacts
 *.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+*.la
 *.so
-*.so.*
-*.dylib
-
-# Executables
+*.a
+*.dll
+*.lib
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.exp
+*.ilk
 *.pdb
+*.suo
+*.user
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.res
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# IDE-specific files (e.g., CLion, VS Code)
+.idea/
+.vscode/
 
-# debug information files
-*.dwo
+# Package manager files (if applicable, e.g., Conan)
+conanbuildinfo.cmake
+conan_imports_manifest.txt
