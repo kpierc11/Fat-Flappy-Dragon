@@ -1,41 +1,53 @@
-# CMake build directories
-build/
-cmake-build-*/
-out/build/
-
-# CMake temporary files and caches
-CMakeCache.txt
+# ======================
+# CMake generated files
+# ======================
 CMakeFiles/
+CMakeCache.txt
 cmake_install.cmake
-install_manifest.txt
+Makefile
+build/
+Testing/
 CTestTestfile.cmake
-_CPack_Packages/
+*.cmake.user
+*.cmake.install
 
-# Other common build artifacts
-*.o
+# ======================
+# Compiler / IDE files
+# ======================
+*.o 
 *.obj
-*.lo
-*.la
-*.so
 *.a
-*.dll
 *.lib
+*.so
+*.dll
 *.exe
-*.exp
-*.ilk
+*.out
+*.app
 *.pdb
-*.suo
-*.user
-*.ncb
-*.aps
-*.bsc
-*.sbr
-*.res
+*.ilk
+*.idb
+*.log
 
-# IDE-specific files (e.g., CLion, VS Code)
-.idea/
+# ======================
+# Raylib / assets temp
+# ======================
+*.rtex  # example temporary textures
+*.rres  # Raylib resource files
+*.bin   # binary assets (if auto-generated)
+
+# ======================
+# Editor specific
+# ======================
 .vscode/
+.idea/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.db
 
-# Package manager files (if applicable, e.g., Conan)
-conanbuildinfo.cmake
-conan_imports_manifest.txt
+# ======================
+# OS generated files
+# ======================
+.DS_Store
+Thumbs.db
